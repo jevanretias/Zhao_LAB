@@ -26,9 +26,6 @@ body {
     border-radius: 8px;
 }
 
-/* Update these lines to match your actual .jpg files */
-/* Update the Hero background */
-/* Update the Hero background extension to .jpg */
 .hero-v2 {
     background: url('assets/hero-protein.jpg') center/cover no-repeat fixed;
 }
@@ -39,22 +36,18 @@ a.research-item {
     color: inherit;
 }
 
-/* Maintain white text on hover */
 a.research-item:hover {
     color: white;
 }
 
-/* Smooth scrolling for the whole site */
 html {
     scroll-behavior: smooth;
 }
 
-/* Offset to account for the fixed navbar so it doesn't cover the titles */
 #ai-design, #biosensing-tech, #micro-tech {
     scroll-margin-top: 100px;
 }
 
-/* Update the Research Pillar image extensions to .jpg */
 .research-item:nth-child(1) {
     background-image: url('assets/protein.png');
 }
@@ -63,7 +56,6 @@ html {
     background-image: url('assets/biosense.png');
 }
 
-/* Use the exact spelling from your folder: 'fludics' */
 .research-item:nth-child(3) {
     background-image: url('assets/fludics.png');
 }
@@ -80,7 +72,6 @@ html {
     -webkit-text-fill-color: transparent;
 }
 
-/* Bento-style Research Grid */
 .research-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -113,7 +104,6 @@ html {
     box-shadow: 0 20px 40px rgba(0,0,0,0.6);
 }
 
-/* Button & Badge Styles */
 .btn-primary-custom {
     background: var(--primary);
     border: none;
@@ -140,17 +130,14 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Prevents fixed navbar from covering section titles when jumping to IDs */
 #ai-design, #biosensing-tech, #micro-tech {
     scroll-margin-top: 120px;
 }
 
-/* Extra spacing for a high-end lab feel */
 .mb-huge {
     margin-bottom: 10rem !important;
 }
 
-/* Animation for the images on the research page */
 .img-fluid.rounded-4 {
     transition: transform 0.5s ease;
 }
@@ -159,7 +146,6 @@ html {
     transform: scale(1.02);
 }
 
-/* Optional: nicer serif headline font */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&display=swap');
 
 .pub-hero{
@@ -173,8 +159,6 @@ html {
   overflow: hidden;
 }
 
-/* If you have ONE hero image like the screenshot, easiest option:
-   export it as assets/publications-hero.png and uncomment below. */
 /*
 .pub-hero{
   background: url("assets/publications-hero.png") center/cover no-repeat;
@@ -195,11 +179,10 @@ html {
   z-index:-1;
 }
 
-/* Decorative left/right ornaments (use your own assets) */
 .pub-hero .orn-left,
-.pub-hero .orn-right{ display:none; } /* if you don’t have assets yet */
+.pub-hero .orn-right{ display:none; }
 
-.pub-hero::marker{ content:""; } /* harmless */
+.pub-hero::marker{ content:""; }
 
 .pub-hero-inner{
   position: relative;
@@ -229,7 +212,7 @@ html {
 .pub-hero-title{
   font-family: "Playfair Display", serif;
   letter-spacing: 0.02em;
-  color: #6e7a56;              /* muted olive like screenshot */
+  color: #6e7a56;
   text-transform: uppercase;
   font-weight: 800;
   line-height: 1.05;
@@ -273,7 +256,6 @@ html {
   opacity: .8;
 }
 
-/* Make your publication section feel a bit more “designed” */
 section.py-5.bg-light{
   background: #f6f4ef !important;
 }
@@ -298,7 +280,7 @@ h4.text-green{
   --archive-bg:   #f3f2ee;   /* clean paper */
 }
 
-/* Updated Hero styling */
+/* Hero styling */
 .pub-hero {
     background: var(--museum-beige);
     padding: 8rem 0 6rem;
@@ -335,7 +317,6 @@ h4.text-green{
     background: rgba(0,0,0,0.1);
 }
 
-/* Modern Archive Cards */
 .pub-card-modern {
     background: #fbfbfa;
     border-radius: 20px;
@@ -442,7 +423,7 @@ h4.text-green{
     box-shadow: 0 0 30px rgba(74, 222, 128, 0.2);
 }
 
-/* Lab Member Card (Initial Avatar Style) */
+/* Lab Member Card */
 .member-card-fancy {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
@@ -492,7 +473,6 @@ h4.text-green{
     line-height: 1.6;
 }
 
-/* Animated Fancy Background */
 .fancy-bg {
     position: fixed;
     top: 0;
@@ -523,7 +503,6 @@ h4.text-green{
     to { transform: translate(100px, 50px) scale(1.1); }
 }
 
-/* Glassmorphism for Section Content */
 .col-md-6.ps-md-5, .col-md-6.pe-md-5 {
     background: rgba(255, 255, 255, 0.03);
     padding: 2.5rem;
@@ -533,7 +512,6 @@ h4.text-green{
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
-/* Enhancing Titles */
 .text-success {
     background: linear-gradient(45deg, #4ca883, #9be3c3);
     -webkit-background-clip: text;
@@ -541,7 +519,6 @@ h4.text-green{
     font-weight: 700 !important;
 }
 
-/* Unified Top Navigation Panel */
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.7); /* Subtle grey for inactive links */
     font-family: 'Poppins', sans-serif;
